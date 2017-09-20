@@ -246,9 +246,6 @@ p {
 }
 
 fieldset {
-  border-style: dashed;
-  border-color: Black;
-  border-width: 2px
   padding: 1em;
   font-family: Verdana, sans-serif;
   margin: 0 auto;
