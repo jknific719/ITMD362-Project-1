@@ -245,6 +245,10 @@ p {
   padding: .5em;
 }
 
+#fin {
+	display: none;
+}
+
 fieldset {
   padding: 1em;
   font-family: Verdana, sans-serif;
@@ -260,6 +264,5 @@ fieldset {
   label {
     display: inline-block;
     color: Black;
-    background-color: white;
     font-size: 1.3em;
   }
