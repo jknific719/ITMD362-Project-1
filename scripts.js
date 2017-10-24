@@ -11,27 +11,27 @@ var p = document.signup.phone.value;
 var b = document.signup.bday.value;
   if (n == "") {
     alert("Hey! You forgot to put in your name!")
-    return false;
+    event.preventDefault();
   }
   else if (e == "") {
     alert("Hey! You forgot to put in your email!")
-    return false;
+    event.preventDefault();
   }
   else if (a == "") {
     alert("Hey! You forgot to put in your address!")
-    return false;
+    event.preventDefault();
   }
   else if (z == "") {
     alert("Hey! You forgot to put in your Zip code!")
-    return false;
+    event.preventDefault();
   }
   else if (p == "") {
     alert("Hey! You forgot to put in your phone number!")
-    return false;
+    event.preventDefault();
   }
   else if (b == "") {
     alert("Hey! You forgot to put in your birthday!")
-    return false;
+    event.preventDefault();
   }
   /* Currently non-functioning
   function hideForm(){
