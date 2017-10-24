@@ -216,6 +216,13 @@ textarea {
 }
 /*End normalize.css (form section)*/
 
+/* Using a ratio of 1.5 for modular scale */
+.content {
+	max-width: 38.443em;
+	margin: auto;
+	line-height: 1.5;
+}
+
 h1 {
   font-size: 1.5em;
   font-weight: bold;
