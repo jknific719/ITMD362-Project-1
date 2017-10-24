@@ -227,11 +227,11 @@ h1 {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center;
-  padding-top: 1em;
+  padding-top: .5em;
 }
 
 h2 {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
   color: #333232;
   text-align: center;
@@ -272,14 +272,14 @@ fieldset {
 
 @media screen and (min-width: 450px) {
 	h1{
-		font-size: 2.5em;
+		font-size: 2.25em;
 	}
 	h2{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
   label {
     display: inline-block;
     color: Black;
-    font-size: 1.5em;
+    font-size: 1.5Sem;
   }
 }
