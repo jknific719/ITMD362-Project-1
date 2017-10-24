@@ -262,6 +262,8 @@ fieldset {
   display: block;
   text-align: center;
 	background-color: rgba(255,255,255,0.6);
+	overflow: hidden;
+}
 input {
 	width: 8.5em;
 }
@@ -276,8 +278,21 @@ input {
 		font-size: 1.5em;
 	}
   label {
-    display: inline-block;
+    display: block;
     color: Black;
     font-size: 1.5Sem;
+		text-align: left;
   }
+}
+@media screen and (orientation: landscape) {
+    fieldset {
+        width: 30em;
+    }
+		input {
+			float: right;
+			clear: both;
+		}
+		#sub {
+			float: none;
+		}
 }
