@@ -33,16 +33,4 @@ var b = document.signup.bday.value;
     alert("Hey! You forgot to put in your birthday!")
     event.preventDefault();
   }
-  /* Currently non-functioning
-  function hideForm(){
-    var f = document.getElementById('form');
-    var i = document.getElementById('fin');
-    f.style.display = 'none';
-    i.style.display = 'block';
-  }
-  function formFunct(){
-    validateForm();
-    hideForm();
-  }
-  */
 }
