@@ -5,6 +5,10 @@ function validateForm() {
   var z = document.signup.zip.value;
   var p = document.signup.phone.value;
   var b = document.signup.bday.value;
+window.onload = function(){
+  document.getElementById("signup").addEventListener('submit', validateForm);
+}
+
   if (n == "") {
     alert("Hey! You forgot to put in your name!")
     return false;
